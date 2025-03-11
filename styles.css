@@ -7,6 +7,7 @@
     --quase-branco: #E8E8E8;
     --marrom-escuro:#B3A9A8;
     --marrom-claro: #E0CCCB;
+    --vermelho: #803f3b;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
@@ -28,14 +29,12 @@ section {
 
 
 .nav-link {
-    color: var(--marrom-escuro);
+    color: var(--quase-branco);
     font-weight: 600;
 }
 
 .inicio-fundo {
-    /* aula 3 */
     background-image: url('img/Fundo1.png');
-    /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
     border-radius: 80px;
@@ -45,7 +44,6 @@ section {
     margin: 0 auto;
 }
 
-/* posicionamento para a imagem à direita */
 .img-inicio {
     position: absolute;
     right: 0;
@@ -64,7 +62,7 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--marrom-escuro);
+    background-color: var(--vermelho);
     border-radius: 30px;
     border: none;
     width: 14em;
@@ -83,10 +81,9 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('img/micro.png') top right no-repeat,
+        url('img/astro.png') bottom left no-repeat;
     background-size: 180px 180px;
-    /* Ajuste o tamanho conforme necessário */
 }
 
 #tropicalia .container {
@@ -95,7 +92,6 @@ section {
     justify-content: center;
     position: relative;
     z-index: 1;
-    /* Garante que o conteúdo fica acima das imagens do background */
 }
 
 
@@ -112,12 +108,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('img/tv.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/Fundo1.png');
     background-size: cover;
     padding: 4rem 0;
 }
